@@ -7,19 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit 
-        amet consectetur adipisicing elit. 
-        Inventore quo, reiciendis voluptatibus 
-        totam perspiciatis recusandae fugiat dignissimos aut rem, repellat modi aperiam maxime libero quis consequatur suscipit pariatur nam architecto!</p>
-        <ol>
-            <li>item 1</li> 
-            <li>item 2</li>
-           <li>item 3</li>
-        </ol>
-        <ul>
-            <li>item 1</li> 
-            <li>item 2</li>
-           <li>item 3</li>
-        </ul>
+   <form method="post">
+      Username : <input type="text" placeholder="enter your username" required maxlength="10"> 
+      <br>
+      Password : <input type="password" placeholder="enter your password" required maxlength="10"> 
+      <br>
+      DOB:<input type="date" required>
+      <br>
+      Email:<input type="email" placeholder="enter your email">
+      <br>
+      Mobile : <input type="tel" >
+      <hr>
+      Color :<input type="color">
+      <br>
+      Gender<br> FeMale<input type="radio" name="gender"> Male<input type="radio" name="gender">
+      Department
+      <br>
+      CSE <input type="radio" name="department" checked> <br>
+      ECE <input type="radio"  name="department"> <br>
+      EEE <input type="radio"  name="department" checked> <br>
+      Area of Interest : <br>
+      HTML <input type="checkbox" name="aoi" checked> <br>
+      CSS <input type="checkbox" name="aoi" > <br>
+    <hr>
+    Comments:<textarea rows="15" cols="45"></textarea>
+      <input type="submit" value="ok">
+      <input type="reset" value="clear">
+      <button>click here</button>
+   </form>
 </body>
 </html>

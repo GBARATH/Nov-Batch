@@ -4,13 +4,15 @@
     <title>My first page</title>
 </head>
 <body>
+    <!--navigation bar-->
 <div id="main-nav">
-    <a href="Services.html" target="_blank">Services </a> 
-    <a href="Services.html" target="_blank">Services </a> 
+  <button> <a href="#home" >Home </a> </button>  &nbsp &nbsp
+    <a href="#gallery" >Gallery </a> &nbsp&nbsp&nbsp
+    <a href="#register" > Register </a> &nbsp&nbsp&nbsp
+    <a href="#reachus"> Reach Us </a> &nbsp&nbsp&nbsp  
 </div>
-<div id="sub-nav">
-    <a href="https://en.wikipedia.org/wiki/HTML">Learn more about html here</a>
-</div>
+<!--home page-->
+<div id="home">
     <header>
     <h1>Crampete Pvt Ltd</h1> 
     <h2>MERN Stack</h2> 
@@ -74,18 +76,68 @@
             </tr>
         </tfoot>
     </table>
- 
+</div>
+<a href="#main-nav">Prev</a>
+<a href="#gallery">Next</a>
+    <!--gallery-->
+<div id="gallery">
+ <h1>Gallery</h1>
         <img src="Sample Pictures/Hydrangeas.jpg" width="50%" height="50%">
     
         <img src="Sample Pictures/Jellyfish.jpg" width="49%" height="50%">
+
+
+<h1>Watch our video</h1>
         <video width="683"  controls>
             <source src="videos/video1548454811.mp4" type="video/mp4" > 
             your browser doesnt support html5 tags
         </video>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jS4aFq5-91M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15504.844328114536!2d79.59405369999999!3d13.70566185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d38684f46d32f%3A0xb9bfb19ad6c07650!2sIIT%20Tirupati%20Campus!5e0!3m2!1sen!2sin!4v1637901850885!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  
-    
-</body>
+</div>  
+<a href="#home">Prev</a>
+<a href="#register">Next</a>    
+<div id="register">
+    <!--registration form-->
+    <h1>Registatrtion form</h1>
+    <form method="post">
+        Username : <input type="text" placeholder="enter your username" required maxlength="10"> 
+        <br>
+        Password : <input type="password" placeholder="enter your password" required maxlength="10"> 
+        <br>
+        DOB:<input type="date" required>
+        <br>
+        Email:<input type="email" placeholder="enter your email">
+        <br>
+        Mobile : <input type="tel" >
+        <hr>
+        Color :<input type="color">
+        <br>
+        Gender<br> FeMale<input type="radio" name="gender"> Male<input type="radio" name="gender">
+        Department
+        <br>
+        CSE <input type="radio" name="department" checked> <br>
+        ECE <input type="radio"  name="department"> <br>
+        EEE <input type="radio"  name="department" checked> <br>
+        Area of Interest : <br>
+        HTML <input type="checkbox" name="aoi" checked> <br>
+        CSS <input type="checkbox" name="aoi" > <br>
+      <hr>
+      Comments:<textarea rows="15" cols="45"></textarea>
+        <input type="submit" value="ok">
+        <input type="reset" value="clear">
+        <button>click here</button>
+     </form>
+</div> 
+<a href="#gallery">Prev</a>
+<a href="#reachus">Next</a> 
+<!--Map-->
+<div id="reachus">
+     
+     <h1>REach Us</h1>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15504.844328114536!2d79.59405369999999!3d13.70566185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d38684f46d32f%3A0xb9bfb19ad6c07650!2sIIT%20Tirupati%20Campus!5e0!3m2!1sen!2sin!4v1637901850885!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<a href="#register">Prev</a>
+<a href="#main-nav">go to top</a> 
+    </body>
 </html>

@@ -1,0 +1,46 @@
+
+pwd - present working directory
+cd path - changing directory
+ls - listing
+
+
+git commands:
+
+git init - initalizing folder as a local repo
+
+push to remote:
+
+git add filename - move particular file to statging
+area
+
+git add -A - move all the files to the staging area
+
+git status- status
+
+git commit -m "commitmessage" - save all the changes
+
+git remote add origin remoterepolink - configure
+remote repo to local repo
+
+github account - create a empty repo
+
+(local repo name and remote repo name should be same)
+
+git push -u origin master - push to the origin configured
+
+pull:
+
+localdrive - create a empty folder with the same name of 
+remote repo
+cd drive/emptyfolder
+git init
+
+git pull remotelink master
+
+
+
+
+
+
+
+

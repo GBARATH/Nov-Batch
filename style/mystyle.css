@@ -1,0 +1,21 @@
+.class1{
+    background-color: darkgrey;
+}
+#id1{
+    background-color: darkgreen;
+}
+.class2{
+    color: darkred;
+}
+#id2{
+    color: ivory;
+}
+h1,h5{
+    background-color: lawngreen;
+}
+h6{
+    background-color: lightcoral;
+}
+*{
+    background-color: lightgreen;
+}

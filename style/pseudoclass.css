@@ -1,0 +1,10 @@
+a:link{
+    color: darkblue;
+}
+a:visited{
+    color: rgb(139, 0, 12);
+}
+p:hover{
+    background-color: chartreuse;
+    
+}

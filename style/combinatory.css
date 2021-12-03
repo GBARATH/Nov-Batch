@@ -8,9 +8,9 @@
     background-color: brown;
 }*/
 /*adjacent sibling */
-/*p+section{
+p~p{
     background-color: brown;
-}*/
+}
 /*general sibling */
 /*div~p{
     background-color: brown;

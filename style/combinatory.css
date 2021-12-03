@@ -1,0 +1,17 @@
+/*descendant selector*/
+/*.c1 .heading1{
+    background-color: aqua;
+}*/
+
+/*child selector*/
+/*.c1>.para1{
+    background-color: brown;
+}*/
+/*adjacent sibling */
+/*p+section{
+    background-color: brown;
+}*/
+/*general sibling */
+/*div~p{
+    background-color: brown;
+}*/

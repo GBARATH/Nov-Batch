@@ -1,0 +1,27 @@
+.intro{
+    color:brown
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+
+}
+.demo1{
+    font-style:oblique;
+    text-align:start;
+    text-indent: 20px;
+   word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.demo2{
+    font-style: italic;
+}
+
+img{
+    width: 30%;
+    height: 70%;
+}
+
+

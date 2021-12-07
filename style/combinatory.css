@@ -8,7 +8,7 @@
     background-color: brown;
 }*/
 /*adjacent sibling */
-p~p{
+p+p{
     background-color: brown;
 }
 /*general sibling */

@@ -1,9 +1,36 @@
+body{
+    margin-left:20px;
+    margin-right:20px;
+}
 .intro{
-    color:brown
+    color:brown;
+    
+   
+}
+a{
+    text-decoration: none;
+}
+button{
+    border-style:dashed;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: coral;
+    color:brown;
+    font-family: 'Pacifico', cursive;
+    margin-right: 40px;
+    margin-left:40px;
 }
 h1{
     font-family: 'Pacifico', cursive;
-    text-align: center;
+    border-style: ridge;
+   border-color: chocolate;
+    padding-left: 525px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
 
 }
 .demo1{
@@ -22,6 +49,23 @@ h1{
 img{
     width: 30%;
     height: 70%;
+ 
+   
+}
+#img1{
+    display: inline;
+
+  
+}
+h3{
+    display: inline;
+    
+}
+#he1{
+
+}
+#he2{
+    margin-left:350px;
 }
 
 

@@ -53,9 +53,14 @@ img{
     height: 70%;
     margin-right: 20px;
     margin-bottom: 20px;
-    border-radius: 20%;
+    border-radius: 50%;
+    float:right;
  
    
+}
+.content{
+    float: right;
+    
 }
 
 h3{

@@ -49,27 +49,22 @@ h1{
 }
 
 img{
-    width: 30%;
-    height: 70%;
-    margin-right: 20px;
-    margin-bottom: 20px;
+   
     border-radius: 50%;
     float:right;
- 
    
 }
-.content{
-    float: right;
-    
+.container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+   
 }
 
 h3{
     display: inline;
     
 }
-#he1{
 
-}
 #he2{
     margin-left:350px;
 }

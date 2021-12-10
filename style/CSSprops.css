@@ -12,24 +12,26 @@ a{
 }
 button{
     border-style:dashed;
-    padding-left:25px;
+    /*padding-left:25px;
     padding-right:25px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px;*/
+    padding: 20px ;
     background-color: coral;
     color:brown;
     font-family: 'Pacifico', cursive;
     margin-right: 40px;
     margin-left:40px;
+    border-radius: 10px;
 }
 h1{
     font-family: 'Pacifico', cursive;
-    border-style: ridge;
-   border-color: chocolate;
+    border:5px groove brown;
     padding-left: 525px;
     padding-right:10px;
     padding-top:10px;
     padding-bottom: 10px;
+    margin:20px 30px 40px 45px;
     
 
 }
@@ -49,14 +51,13 @@ h1{
 img{
     width: 30%;
     height: 70%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20%;
  
    
 }
-#img1{
-    display: inline;
 
-  
-}
 h3{
     display: inline;
     

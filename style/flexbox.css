@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    background-color: darkgray;
+    flex-direction:row; /* row row-reverse column column-reverse*/
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap:wrap;
+
+}
+.clr1{
+    background-color: blueviolet;
+
+    order:2;
+}
+.clr2{
+    background-color: chocolate;
+
+    order:1;
+}
+.clr3{
+    background-color: crimson;
+
+    order:4;
+}
+.clr4{
+background-color: cyan;
+
+order: 3;
+}
+.container2{
+    display: flex;
+}
+.c2{
+    flex-grow: 3;
+}
+.c3{
+    flex-grow: 1;
+}

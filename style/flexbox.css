@@ -1,3 +1,6 @@
+body{
+    font-size:x-large
+}
 .container{
     display: flex;
     background-color: darkgray;
@@ -7,32 +10,68 @@
     flex-wrap:wrap;
 
 }
+a{
+    text-decoration: none;
+}
 .clr1{
     background-color: blueviolet;
 
-    order:2;
 }
 .clr2{
     background-color: chocolate;
 
-    order:1;
 }
 .clr3{
     background-color: crimson;
 
-    order:4;
 }
 .clr4{
 background-color: cyan;
 
-order: 3;
+
 }
 .container2{
     display: flex;
+    flex-direction: row;
 }
 .c2{
     flex-grow: 3;
 }
 .c3{
     flex-grow: 1;
+}
+@media (min-width:450px) and (max-width:600px){
+   body{
+       background-color: black;
+       color:blanchedalmond;
+       font-size: smaller;
+   }
+   .container{
+      display: block;
+      text-align: center;
+   }
+   .container2{
+    display: block;
+    
+}
+.clr1{
+    background-color: blueviolet;
+    flex-basis: 30px;
+  
+
+}
+.clr2{
+    background-color: chocolate;
+
+}
+.clr3{
+    background-color: crimson;
+
+}
+.clr4{
+background-color: cyan;
+
+
+}
+
 }

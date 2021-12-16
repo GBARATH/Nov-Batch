@@ -7,7 +7,6 @@
    /* grid-column-gap: 15px;
     grid-row-gap: 10px;*/
     grid-gap:15px 2px;
-   
 }
 h3{
     text-align: center;
@@ -37,3 +36,16 @@ h3{
     grid-column-end:5;
 }
 
+@media  (min-width:450px) and (max-width:600px){
+    .container{
+       grid-template-columns: 50% 50%;
+    }
+    .c1,.c2,.c3,.c4,.c5,.c6{
+        border-style: none ;
+        background-color: blanchedalmond;
+    }
+    video{
+        width: 350px;
+    }
+   
+}

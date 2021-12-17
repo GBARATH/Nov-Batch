@@ -1,0 +1,27 @@
+img{
+    width:100%
+}
+.clr1{
+    background-color: aqua;
+}
+.clr2{
+    background-color: blanchedalmond;
+}
+.clr3{
+    background-color: cadetblue;
+}
+.btn-primary {
+    color: rgb(240, 225, 12);
+ 
+
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #b8c5d8;
+  }
+  .container{
+    padding-right:0px;
+    padding-left:0px;
+    margin-right: 10px;
+    margin-left: 40px;
+  }

@@ -44,7 +44,8 @@ console.log(staff.subjects[0])
 let b=20
 let c=a%b
 console.log(c)*/
-let a=12
+let a;
+a=12
 let b=13
 let c= a++ + b++
 console.log(a)

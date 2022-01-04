@@ -29,6 +29,9 @@ console.log(sum(30,10))*/
 do{
     num=prompt("enter a number greater than 100")
 }while(num>=100)*/
-let arr=["peter",function display(){console.log("hello")}]
-arr[1]()
+/*let arr=["peter",function display(){console.log("hello")}]
+arr[1]()*/
+
+
+
 

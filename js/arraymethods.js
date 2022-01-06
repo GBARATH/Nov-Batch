@@ -73,9 +73,36 @@ console.log(op2)*/
 /*let arr=[0,4,5,23,8,10]
 arr.sort((a,b)=>a-b)
 console.log(arr)*/
-let arr=[0,4,5,23,8,10]
+/*let arr=[0,4,5,23,8,10]
 arr.reverse()
-console.log(arr)
+console.log(arr)*/
+/*let msg=" React henry loves Javascript"
+for(let i=0;i<fname.length;i++){
+    console.log(fname[i])
+}*/
+//indexOf includes startsWith endsWith
+/*let result=msg.indexOf("React",11)
+console.log(result)*/
+/*if(result!==-1){
+    console.log("the substring is found")
+}
+else{
+    console.log("the substring is not found")
+}*/
+/*let msg2="hello all"
+console.log(msg2.includes("bye"))
+let msg2="hello all"
+console.log(msg2.startsWith("H"))
+console.log(msg2.endsWith("lL"))*/
+//slice
+/*let msg="Reacthenry loves Javascript"
+//console.log(msg.slice(9,2))// start is inclusive end is exclusive
+//substring substr
+//console.log(msg.substring(9,2))
+console.log(msg.substr(3,7))*/
+/*let msg="Reacthenry loves Javascript"
+console.log(msg.toUpperCase())*/
+
 
 
 
